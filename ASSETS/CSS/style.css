@@ -7,17 +7,25 @@ body {
     rgba(255, 215, 185, 0.91) 23%,
     rgba(223, 159, 247, 0.8) 93%
   );
+  font-family: "Roboto Serif", serif !important;
 }
-.navbar{
-    position: fixed;
+.navbar {
+  position: fixed;
 }
-.hire-me{
-    background-color: blueviolet !important;
-    border: none !important;
+.hire-me {
+  background-color: blueviolet !important;
+  border: none !important;
 }
-.hero{
-    margin-top: 30px;
+.hero {
+  margin-top: 30px;
 }
 .name {
   color: blueviolet;
 }
+h1,
+h3,
+p {
+  font-size: 17px;
+  font-weight: 600;
+}
+
