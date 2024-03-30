@@ -16,6 +16,7 @@ nav {
 .hire-me {
   background-color: blueviolet !important;
   border: none !important;
+  color: white !important;
 }
 .hero {
   margin-top: 30px;
@@ -29,9 +30,19 @@ p {
   font-size: 17px;
   font-weight: 600;
 }
-li{
-    list-style: none;
+li {
+  list-style: none;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
+}
+.logo {
+  margin-right: 50px;
+}
+.navigation {
+  margin: 0 50px;
+}
+.navigation-active {
+  margin-right:  50px;
+  margin-left: 200px;
 }
