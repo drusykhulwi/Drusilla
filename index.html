@@ -11,6 +11,7 @@
       integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script
       src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -57,20 +58,18 @@
             >
           </li>
           <li class="nav-item navigation">
-            <a class="nav-link" href="#about-page">About me</a>
+            <a class="nav-link" href="#about-page">About</a>
           </li>
           <li class="nav-item navigation">
             <a class="nav-link" href="#my-projects">Projects</a>
           </li>
           <li class="nav-item navigation">
-            <a class="nav-link" href="#contact-me">Contact</a>
+            <a class="nav-link" href="#testimonials">Testimonials</a>
+          </li>
+          <li class="hire-me nav-item navbar-text navigation btn btn-primary">
+            <a class="nav-link" href="#contact-me">CONTACT</a>
           </li>
         </ul>
-        <span
-          class="hire-me navbar-text btn btn-primary text-white rounded-pill shadow"
-        >
-          GET IN TOUCH
-        </span>
       </div>
     </nav>
     <div class="container mb-5" id="home-page">
@@ -129,17 +128,31 @@
       <div class="row">
         <div class="col-md-4 mb-5">
           <img
+            src="./ASSETS/Images/Wamz-farm.png"
+            alt="Drusilla-s projects"
+            class="img-fluid shadow rounded" width="400px" height="400px"
+          />
+          <p class="mt-3">
+            This is a farm produce website developed using html, CSS, JS and bootstrap.
+            It is for a small business which sells fresh farm products
+          </p>
+          <a
+            href="https://wamzfarm.vercel.app/"
+            class="btn hire-me"
+          >
+            VISIT</a
+          >
+        </div>
+        <div class="col-md-4 mb-5">
+          <img
             src="./ASSETS/Images/weather-app.png"
             alt=""
             class="img-fluid shadow rounded"
           />
           <p class="mt-3">
-            This is a weather app developed using HTML and vanilla CSS and JS.
+            This is a weather app developed using React.js.
             It is used to assist the user to get real-time weather forecast of
-            different cities. It's forecast is programmed to only show for 5
-            days. Challenge was to get the actual time, this is because the API
-            used is only programmed to feature the actual time in the location
-            searched for all cities.
+            different cities.
           </p>
           <a
             href="https://drusilla-weather-app.vercel.app/"
@@ -147,6 +160,53 @@
           >
             VISIT</a
           >
+        </div>
+      </div>
+      <h2 class="name mb-3 text-center">IN Progress</h2>
+      <div class="row">
+        <div class="col-md-4 mb-5">
+          <img
+            src="./ASSETS/Images/in-progress.jpg"
+            alt="Drusilla-s projects"
+            class="img-fluid shadow rounded" width="400px" height="400px"
+          />
+          <p class="mt-3">
+            This is an ecommerce website for shoes.
+            More details on it will be given once it is completed.
+          </p>
+          <a
+            href="https://wamzfarm.vercel.app/"
+            class="btn hire-me"
+          >
+            VISIT</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5" id="testimonials">
+      <h1 class="name mb-3 text-center">CUSTOMER REVIEWS</h1>
+      <div class="row row-cols-1 row-cols-md-3">
+        <div class="col mb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <div class="star-rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="profile">
+                <img src="./ASSETS/Images/Agatha.jpeg" class="card-img-top" alt="Agatha">
+                <h5 class="card-title">Agatha Nafula</h5>
+              </div>
+              <p class="card-text">
+                She's the best I've worked with.
+                The best customer service and very professional.
+                Good value for your money.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

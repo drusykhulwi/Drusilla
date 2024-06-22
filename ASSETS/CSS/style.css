@@ -18,6 +18,10 @@ nav {
   border: none !important;
   color: white !important;
 }
+.hire-me a{
+  color: #ffffff !important;
+  text-align: center;
+}
 .hero {
   margin-top: 30px;
 }
@@ -25,6 +29,7 @@ nav {
   color: blueviolet;
 }
 h1,
+h2,
 h3,
 p {
   font-size: 17px;
@@ -45,4 +50,19 @@ a {
 .navigation-active {
   margin-right:  50px;
   margin-left: 200px;
+}
+.profile{
+  width: 18vw;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.profile img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.profile h5{
+  text-align: center;
 }
